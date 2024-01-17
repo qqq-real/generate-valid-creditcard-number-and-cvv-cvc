@@ -1,6 +1,6 @@
 <?php
 
-$ccgen = new ccheckApi;
+$ccgen = new ccgen-w-cvv;
 
 $bin = '542418'; //sample bin
 echo $ccgen->generateCreditCardNumber($bin) .'|'. $ccgen->generateCVV();
