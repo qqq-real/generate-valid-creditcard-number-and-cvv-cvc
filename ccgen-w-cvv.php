@@ -1,6 +1,6 @@
 <?php 
 
-class ccheckApi
+class ccgen-w-cvv
 {
     /**
      * Generate a valid credit card number using a given prefix.
