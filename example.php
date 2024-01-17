@@ -1,6 +1,6 @@
 <?php
 
-$ccgen = new ccgen-w-cvv;
+$ccgen = new ccgenwcvv;
 
 $bin = '542418'; //sample bin
 echo $ccgen->generateCreditCardNumber($bin) .'|'. $ccgen->generateCVV();
